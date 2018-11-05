@@ -18,15 +18,21 @@ class RelatedMovieItem extends Component {
         return (
             <div className='related-movie-item-wrapper'>
                 <Link to={`/TopMovies/${id}`} target="_blank"><img src={IMG_URL} alt="movie-poster"/></Link>
-                <h5>{original_title}</h5>
-                <span>{vote_average}</span>
-                <StarRatings
-                    rating={vote_average}
-                    starDimension="25px"
-                    starSpacing="0px"
-                    starRatedColor='rgb(1, 210, 119)'
-                    numberOfStars={1}
-                />
+                <div className="related-movie-info">
+                    <h5>{original_title}</h5>
+                    <div className='rating-wrapper'>
+                        <span>{vote_average}</span>
+                        <StarRatings
+                            rating={vote_average}
+                            starDimension="15px"
+                            starSpacing="0px"
+                            starRatedColor='rgb(1, 210, 119)'
+                            numberOfStars={1}
+                        />
+                    </div>
+                </div>
+
+
             </div>
         )
     }

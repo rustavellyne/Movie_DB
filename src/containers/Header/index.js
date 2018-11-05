@@ -90,15 +90,15 @@ class Header extends Component {
                             <Nav className="mr-auto" navbar>
                                 <NavItem>
                                     <Link  to="/TopMovies" className='nav-link links'>
-                                        Infinity
+                                        Popular
                                     </Link>
                                 </NavItem>
-                                <NavItem>
-                                    <Link  to="/TopMovies" className='nav-link links'>
-                                        Pagination
-                                    </Link>
+                                {/*<NavItem>*/}
+                                    {/*<Link  to="/TopMovies" className='nav-link links'>*/}
+                                        {/*Pagination*/}
+                                    {/*</Link>*/}
 
-                                </NavItem>
+                                {/*</NavItem>*/}
 
                             </Nav>
                             <InputGroup className="ml-auto col-sm-12 col-md-8">

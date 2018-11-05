@@ -6,3 +6,12 @@
     width: 100%;
     object-fit: contain;
 }
+
+.related-movie-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-wrapper {
+
+}

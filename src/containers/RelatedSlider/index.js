@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import Swiper from 'react-id-swiper';
 import RelatedMovieItem from "../../components/RelatedMovieItem";
-import StarRatings from 'react-star-ratings';
-import noPoster from '../../assets/poster_none.png'
+
 
 class RelatedSlider extends Component {
     render() {
@@ -16,10 +15,10 @@ class RelatedSlider extends Component {
         //     `${noPoster}`;
 
         const params = {
-            slidesPerView: 3,
-            spaceBetween: 30,
+            slidesPerView: 5,
+            spaceBetween: 5,
             rebuildOnUpdate: true,
-            slidesPerGroup: 3,
+            slidesPerGroup: 2,
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {
