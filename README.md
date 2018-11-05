@@ -15,4 +15,4 @@
 
 ### DEMO
 
-https://rustavellyne.github.io/Movie_DB/
+http://rustavellyne.github.io/Movie_DB

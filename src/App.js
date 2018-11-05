@@ -17,7 +17,7 @@ class App extends Component {
                   {/*<Redirect from="/" to="Movies" />*/}
                   <Switch>
                       <Route path="/TopMovies/:id" component={MoviePage}/>
-                      <Route exact path="/TopMovies" component={MovieList}/>
+                      <Route path="/TopMovies" component={MovieList}/>
                       <Route exact path="/" component={MovieList}/>
                   </Switch>
               {/*</Container>*/}
