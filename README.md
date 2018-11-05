@@ -2,7 +2,7 @@
 
  [Frontend Developer Tech Task](https://gist.github.com/moonbrv/7008353e44eb08832636b997c8311617) 
 
-	Movies search app using React, Redux, React router and API https://developers.themoviedb.org
+	Movies search app using React, React router and API https://developers.themoviedb.org
 ### Install
 
     npm install
