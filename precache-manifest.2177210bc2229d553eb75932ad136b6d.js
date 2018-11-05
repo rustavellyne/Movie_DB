@@ -16,15 +16,15 @@ self.__precacheManifest = [
     "url": "/Movie_DB/static/js/runtime~main.d08d7410.js"
   },
   {
-    "revision": "7603541f8d7a7328bb17",
-    "url": "/Movie_DB/static/js/main.7603541f.chunk.js"
+    "revision": "5130b37687096f0b1573",
+    "url": "/Movie_DB/static/js/main.5130b376.chunk.js"
   },
   {
     "revision": "4ffaaf6a73292339b105",
     "url": "/Movie_DB/static/js/1.4ffaaf6a.chunk.js"
   },
   {
-    "revision": "7603541f8d7a7328bb17",
+    "revision": "5130b37687096f0b1573",
     "url": "/Movie_DB/static/css/main.d8a608f4.chunk.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/Movie_DB/static/css/1.c49f0430.chunk.css"
   },
   {
-    "revision": "8af5045c4b45d346e6e875a6a15d9628",
+    "revision": "e90f7bfafb0d817bfcb8b3398fd72893",
     "url": "/Movie_DB/index.html"
   }
 ];
