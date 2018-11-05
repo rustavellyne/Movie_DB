@@ -9,7 +9,7 @@ class AutoSuggest extends Component {
         if(this.props.visible){
             return (
                 <ul className='suggests-component'>
-                    {suggests.map(item => (<Link key={item.id} to={`/TopMovies/${item.id}`} target="_blank">
+                    {suggests.map(item => (<Link key={item.id} to={process.env.PUBLIC_URL + `/TopMovies/${item.id}`} target="_blank">
                             <li className='suggests-component-item'>
                                 <h5>{item.original_title}</h5>
                                 <div>{item.release_date}</div>

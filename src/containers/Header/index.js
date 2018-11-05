@@ -82,14 +82,14 @@ class Header extends Component {
         return (
                 <Navbar light expand="md" className='navbar-dark bg-dark' style={{position: 'fixed',zIndex: 99, width: '100vw' }}>
                     <Container>
-                        <NavbarBrand href="/" className="col-4 col-sm-4 col-md-2">
+                        <NavbarBrand className="col-4 col-sm-4 col-md-2">
                             <img src={logo} alt="TMDB" />
                         </NavbarBrand>
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="mr-auto" navbar>
                                 <NavItem>
-                                    <Link  to="/TopMovies" className='nav-link links'>
+                                    <Link  to='/TopMovies' className='nav-link links'>
                                         Popular
                                     </Link>
                                 </NavItem>

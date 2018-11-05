@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom';
+// import { HashRouter as Router, Route  } from 'react-router-dom';
 // import { Container } from 'reactstrap';
 import './App.css';
 import Header from "./containers/Header";
@@ -14,10 +15,9 @@ class App extends Component {
           <div className="App">
              <Header/>
                   <Switch>
-                      <Route exact path="/" component={MovieList}/>
-                      <Route path="/TopMovies/:id" component={MoviePage}/>
-                      <Route path="/TopMovies" component={MovieList}/>
-
+                      <Route exact path='/' component={MovieList} />
+                      <Route path='/TopMovies/:id' component={MoviePage}/>
+                      <Route path= '/TopMovies/' component={MovieList}/>
                   </Switch>
           </div>
     );
