@@ -1,0 +1,35 @@
+.suggests-component {
+    position: absolute;
+    list-style: none;
+    color: #FFFFFF;
+    background-color: rgba(52, 58, 64, 0.7);
+    width: 92%;
+    top: 65px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 25px;
+}
+.suggests-component-item {
+    padding: 5px 15px 5px 10px;
+}
+
+.suggests-component-item:hover {
+    background-color: #01D277;
+    border-radius: 5px;
+}
+.suggests-component a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.suggests-component li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid grey;
+}
+.suggests-component h5 {
+    display: inline-block;
+    margin: 0;
+}
+

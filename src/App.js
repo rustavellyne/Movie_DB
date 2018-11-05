@@ -16,8 +16,8 @@ class App extends Component {
               {/*<Container style={{padding: '120px 0'}}>*/}
                   {/*<Redirect from="/" to="Movies" />*/}
                   <Switch>
-                      <Route path="/Movies/:id" component={MoviePage}/>
-                      <Route exact path="/Movies" component={MovieList}/>
+                      <Route path="/TopMovies/:id" component={MoviePage}/>
+                      <Route exact path="/TopMovies" component={MovieList}/>
                       <Route exact path="/" component={MovieList}/>
                   </Switch>
               {/*</Container>*/}
