@@ -13,14 +13,12 @@ class App extends Component {
       return (
           <div className="App">
              <Header/>
-              {/*<Container style={{padding: '120px 0'}}>*/}
-                  {/*<Redirect from="/" to="Movies" />*/}
                   <Switch>
+                      <Route exact path="/" component={MovieList}/>
                       <Route path="/TopMovies/:id" component={MoviePage}/>
                       <Route path="/TopMovies" component={MovieList}/>
-                      <Route exact path="/" component={MovieList}/>
+
                   </Switch>
-              {/*</Container>*/}
           </div>
     );
   }
