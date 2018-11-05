@@ -1,8 +1,8 @@
 {
-  "name": "movies-DB",
+  "name": "movies-search",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://rustavellyne.github.io/Movie_DB/",
+  "homepage": "http://rustavellyne.github.io/movies-search",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.7",
     "@fortawesome/free-brands-svg-icons": "^5.4.2",
